@@ -1,3 +1,3 @@
-
-print(r'''hello,
-world''')
+#!/usr/bin
+name = input()
+print('hello',name)

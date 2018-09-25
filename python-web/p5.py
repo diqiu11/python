@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+# coding=utf-8
+L = []
+n = 1
+while n<=99:
+    L.append(n)
+    n+=2
+print(L)
+print(L[20:24])
+print(L[-1])
+print(L[1:10:2])

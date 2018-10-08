@@ -7,6 +7,7 @@ def bmp_info(bmp_data):
     
     #b = a%4
     byt =  struct.unpack('<ccIIIIIIHH',bmp_data[:30])
+    print(len(byt))
     if byt[1] == b'M' or byt[1] == b'A':
         list1 = []
         list1.append(byt[-4])

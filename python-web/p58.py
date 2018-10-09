@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding=utf-8
-#itertools
+#itertools   返回的值是一个iterator 需要使用for迭代才能算出
 import itertools
 
 def iter_1():

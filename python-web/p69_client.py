@@ -10,6 +10,6 @@ print(s.recv(1024).decode('utf-8'))
 for data in [b'Michael', b'Tracy', b'Sarah']:
     # 发送数据:
     s.send(data)
-    print(s.recv(1024).decode('utf-8'))
+    print(s.recv(2048).decode('utf-8'))
 s.send(b'exit')
 s.close()

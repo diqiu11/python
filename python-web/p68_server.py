@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding=utf-8
-#sochet的服务器端
+#socket的服务器端
 import threading
 import socket
 import time

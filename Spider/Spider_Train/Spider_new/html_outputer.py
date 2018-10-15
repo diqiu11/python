@@ -12,8 +12,9 @@ class htmlOutput(object):
         file = open('gjgwy.html', 'w', encoding='utf-8')
         file.write('<html>')
         file.write('<body>')
-        for date in self.datas:
-            pass
+        for data in self.datas:
+            file.write('<h>%s</h1>' %  data['title'])
+            file.write('<p>%s</p>' % data['summary'])
 
         file.write('</body>')
         file.write('</html>')
